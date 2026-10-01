@@ -1,13 +1,12 @@
 {
   "title": "Awesome Medical Datasets (整合版)",
-  "source": "KnowledgeBase wiki 整合",
   "updated": "2026-10-01",
   "stats": {
     "entries": 431,
     "categories": 12,
     "bench_notes": 48,
-    "disease_categories": 23,
-    "disease_filled": 14
+    "disease_cats": 23,
+    "disease_total": 1584
   },
   "categories": [
     {
@@ -3318,6 +3317,123 @@
       "name": "Waymo Open Dataset: Panoramic Video Panoptic Segmentation（ECCV 2022 Workshops）",
       "file": "Waymo-Panoramic-Video-Panoptic.md",
       "note": "Waymo Open Dataset 子集：28 个语义类别、2,860 个时间序列、5 个车载相机、三个地理区域，共 100k 标注相机图像"
+    }
+  ],
+  "disease": [
+    {
+      "slug": "animal-diseases",
+      "cat": "动物疾病",
+      "count": 0
+    },
+    {
+      "slug": "cardiovascular-diseases",
+      "cat": "心血管疾病",
+      "count": 0
+    },
+    {
+      "slug": "chemically-induced-disorders",
+      "cat": "化学诱发性障碍",
+      "count": 76
+    },
+    {
+      "slug": "congenital-hereditary-and-neonatal-diseases-and-abnormalities",
+      "cat": "先天、遗传与新生儿疾病及异常",
+      "count": 0
+    },
+    {
+      "slug": "digestive-system-diseases",
+      "cat": "消化系统疾病",
+      "count": 100
+    },
+    {
+      "slug": "disorders-of-environmental-origin",
+      "cat": "环境因素所致疾病",
+      "count": 8
+    },
+    {
+      "slug": "endocrine-system-diseases",
+      "cat": "内分泌系统疾病",
+      "count": 100
+    },
+    {
+      "slug": "eye-diseases",
+      "cat": "眼病",
+      "count": 100
+    },
+    {
+      "slug": "hemic-and-lymphatic-diseases",
+      "cat": "血液与淋巴系统疾病",
+      "count": 100
+    },
+    {
+      "slug": "immune-system-diseases",
+      "cat": "免疫系统疾病",
+      "count": 100
+    },
+    {
+      "slug": "infections",
+      "cat": "感染",
+      "count": 100
+    },
+    {
+      "slug": "musculoskeletal-diseases",
+      "cat": "肌肉骨骼疾病",
+      "count": 100
+    },
+    {
+      "slug": "neoplasms",
+      "cat": "肿瘤",
+      "count": 100
+    },
+    {
+      "slug": "nervous-system-diseases",
+      "cat": "神经系统疾病",
+      "count": 100
+    },
+    {
+      "slug": "nutritional-and-metabolic-diseases",
+      "cat": "营养与代谢疾病",
+      "count": 0
+    },
+    {
+      "slug": "occupational-diseases",
+      "cat": "职业病",
+      "count": 0
+    },
+    {
+      "slug": "otorhinolaryngologic-diseases",
+      "cat": "耳鼻咽喉疾病",
+      "count": 100
+    },
+    {
+      "slug": "pathological-conditions-signs-and-symptoms",
+      "cat": "病理状况、体征与症状",
+      "count": 0
+    },
+    {
+      "slug": "respiratory-tract-diseases",
+      "cat": "呼吸道疾病",
+      "count": 100
+    },
+    {
+      "slug": "skin-and-connective-tissue-diseases",
+      "cat": "皮肤与结缔组织疾病",
+      "count": 100
+    },
+    {
+      "slug": "stomatognathic-diseases",
+      "cat": "口颌系统疾病",
+      "count": 100
+    },
+    {
+      "slug": "urogenital-diseases",
+      "cat": "泌尿生殖系统疾病",
+      "count": 100
+    },
+    {
+      "slug": "wounds-and-injuries",
+      "cat": "创伤与损伤",
+      "count": 100
     }
   ]
 }

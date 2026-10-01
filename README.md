@@ -1,17 +1,17 @@
 # 🩺 Awesome Medical Datasets · 医学数据集大全（整合版）
 
-> 把分散在多个清单中的**医学影像 / 多模态 / 文本数据集**、**疾病大类公开数据集索引**与**分割基准专题笔记**整合到一起，统一分类、补齐链接、随机排序，方便一站式检索选型。
+> 把**医学影像 / 多模态 / 文本数据集**、**疾病大类公开数据集索引**与**医学分割基准专题**整合到一起，统一分类、补齐链接、**随机排序**，方便一站式检索选型。
 
-> ⚠️ 本仓库**只做索引与导航**，不托管任何数据集原始文件。所有数据版权归各数据集官方所有，使用前请到官方页面确认许可证（License）。
+> ⚠️ 本仓库**只做索引与导航**，不托管任何数据集原始文件。数据版权归各数据集官方所有，使用前请到官方页面确认许可证（License）。
 
 ## 📊 一览
 
-- **数据集条目：** 431 条（12 个分类）
-- **疾病大类数据集索引：** 23 个疾病大类（其中 14 类已填充，约 1400 条记录）
-- **分割基准 / 数据集专题笔记：** 48 篇
+- **影像/多模态/文本数据集：** 431 条（12 个分类）
+- **疾病大类数据集：** 23 个疾病大类，**1584** 条记录（每类一文件，见 `disease/`）
+- **医学分割基准专题笔记：** 48 篇
 - **更新：** 2026-10-01
 
-## 🗂 分类导航
+## 🗂 影像数据集分类导航
 
 | 分类 | 条目数 |
 | :--- | ---: |
@@ -29,7 +29,7 @@
 | 文本数据集 | 25 |
 | **合计** | **431** |
 
-## 📦 数据集总表（已打乱顺序）
+## 📦 影像数据集总表（已打乱顺序）
 
 > 共 **431** 条，随机排序（不按来源顺序，避免与上游清单雷同）；每条附分类标签与官方链接。
 
@@ -467,21 +467,44 @@
 | 430 | **EBHI-Seg** | 腹部 | 2D | 2D，pathology，4456例，6类结直肠图像分割 | [官网](https://figshare.com/articles/dataset/EBHI-SEG/21540159/1) |
 | 431 | **Scientific Data \\| BRAX** | 胸部 | 2D | 2D，X-ray， 24, 959个案例，19, 351个病人，40, 967个图片，巴西人胸部X光 | [官网](https://physionet.org/content/brax/1.1.0/) |
 
-## 🧬 疾病数据集资源（按疾病大类）
+## 🧬 疾病数据集（按疾病大类，点击展开）
 
-> 来源：[QianfangHub Awesome Disease Datasets](https://www.qianfanghub.com/)（第三方开源索引，按医学疾病大类编排，含表格/影像/文本/基因等多模态）。
+> 来源：[QianfangHub/awesome-disease-datasets](https://github.com/QianfangHub/awesome-disease-datasets)（按医学疾病大类编排，含表格/影像/文本/基因等多模态）。
 
-**14 个已填充大类**（每类约 100 条）：肿瘤 · 感染 · 内分泌系统疾病 · 消化系统疾病 · 神经系统疾病 · 眼病 · 泌尿生殖系统疾病 · 免疫系统疾病 · 血液与淋巴系统疾病 · 呼吸系统疾病 · 口颌系统疾病 · 耳鼻咽喉疾病 · 皮肤与结缔组织疾病 · 创伤与损伤
+| 疾病大类 | 条目数 | 文件 |
+| :--- | ---: | :--- |
+| 动物疾病 | 0 | [disease/animal-diseases.md](disease/animal-diseases.md) |
+| 心血管疾病 | 0 | [disease/cardiovascular-diseases.md](disease/cardiovascular-diseases.md) |
+| 化学诱发性障碍 | 76 | [disease/chemically-induced-disorders.md](disease/chemically-induced-disorders.md) |
+| 先天、遗传与新生儿疾病及异常 | 0 | [disease/congenital-hereditary-and-neonatal-diseases-and-abnormalities.md](disease/congenital-hereditary-and-neonatal-diseases-and-abnormalities.md) |
+| 消化系统疾病 | 100 | [disease/digestive-system-diseases.md](disease/digestive-system-diseases.md) |
+| 环境因素所致疾病 | 8 | [disease/disorders-of-environmental-origin.md](disease/disorders-of-environmental-origin.md) |
+| 内分泌系统疾病 | 100 | [disease/endocrine-system-diseases.md](disease/endocrine-system-diseases.md) |
+| 眼病 | 100 | [disease/eye-diseases.md](disease/eye-diseases.md) |
+| 血液与淋巴系统疾病 | 100 | [disease/hemic-and-lymphatic-diseases.md](disease/hemic-and-lymphatic-diseases.md) |
+| 免疫系统疾病 | 100 | [disease/immune-system-diseases.md](disease/immune-system-diseases.md) |
+| 感染 | 100 | [disease/infections.md](disease/infections.md) |
+| 肌肉骨骼疾病 | 100 | [disease/musculoskeletal-diseases.md](disease/musculoskeletal-diseases.md) |
+| 肿瘤 | 100 | [disease/neoplasms.md](disease/neoplasms.md) |
+| 神经系统疾病 | 100 | [disease/nervous-system-diseases.md](disease/nervous-system-diseases.md) |
+| 营养与代谢疾病 | 0 | [disease/nutritional-and-metabolic-diseases.md](disease/nutritional-and-metabolic-diseases.md) |
+| 职业病 | 0 | [disease/occupational-diseases.md](disease/occupational-diseases.md) |
+| 耳鼻咽喉疾病 | 100 | [disease/otorhinolaryngologic-diseases.md](disease/otorhinolaryngologic-diseases.md) |
+| 病理状况、体征与症状 | 0 | [disease/pathological-conditions-signs-and-symptoms.md](disease/pathological-conditions-signs-and-symptoms.md) |
+| 呼吸道疾病 | 100 | [disease/respiratory-tract-diseases.md](disease/respiratory-tract-diseases.md) |
+| 皮肤与结缔组织疾病 | 100 | [disease/skin-and-connective-tissue-diseases.md](disease/skin-and-connective-tissue-diseases.md) |
+| 口颌系统疾病 | 100 | [disease/stomatognathic-diseases.md](disease/stomatognathic-diseases.md) |
+| 泌尿生殖系统疾病 | 100 | [disease/urogenital-diseases.md](disease/urogenital-diseases.md) |
+| 创伤与损伤 | 100 | [disease/wounds-and-injuries.md](disease/wounds-and-injuries.md) |
+| **合计** | **1584** | |
 
-**9 个暂无数据占位**：心血管疾病 · 肌肉骨骼疾病 · 营养与代谢疾病 · 先天/遗传/新生儿疾病及异常 · 环境因素所致疾病 · 化学诱发性障碍 · 职业病 · 病理状况/体征/症状 · 动物疾病
-
-**主要来源仓库**：figshare(418) · NCBI(145) · Mendeley(75) · Zenodo(57) · PhysioNet(52) · Kaggle(45) · GitHub(42) · HAIDatas(29) · TCIA / cBioPortal / FinnGen / GDC / Synapse 等
+**主要来源平台**：figshare(418) · NCBI(145) · Mendeley(75) · Zenodo(57) · PhysioNet(52) · Kaggle(45) · GitHub(42) · HAIDatas(29) · TCIA / cBioPortal / FinnGen / GDC / Synapse 等
 
 ## 🧪 医学图像分割 · 基准与数据集专题
 
-> 来自本地知识库 `医学图像分割/07-数据基准与合成` 的 48 篇专题笔记，覆盖主流分割基准/挑战赛/合成数据集。
+> 来自本地知识库 `医学图像分割/07-数据基准与合成` 的 48 篇专题笔记。
 
-| 专题（点击查看仓库内笔记） | 一句话 |
+| 专题 | 一句话 |
 | :--- | :--- |
 | AFA-MI：对抗特征攻击数据增强的多器官 CT 分割 | — |
 | AbdomenAtlas 2.0：从真实与合成数据规模化肿瘤分割（ICCV 2025） | — |
@@ -534,8 +557,9 @@
 
 ## 🔖 其他来源
 
-- [openmedlab/Awesome-Medical-Dataset](https://github.com/openmedlab/Awesome-Medical-Dataset) — 上游影像数据集清单
-- [QianfangHub Awesome Disease Datasets](https://www.qianfanghub.com/) — 疾病大类数据集索引
+- [openmedlab/Awesome-Medical-Dataset](https://github.com/openmedlab/Awesome-Medical-Dataset)
+- [QianfangHub/awesome-disease-datasets](https://github.com/QianfangHub/awesome-disease-datasets)
+- [QianfangHub/top100-medical-datasets](https://github.com/QianfangHub/top100-medical-datasets)
 - 知乎《医学数据集介绍文章汇总》[通用医疗GMAI](https://www.zhihu.com/people/gmai)
 
 ## 📄 许可
